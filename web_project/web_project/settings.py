@@ -27,7 +27,7 @@ SECRET_KEY = '&e7tnm(sj1f#nqg39t6u+=^k94mlia@_j2_*8jivoygv)(v-(m'
 DEBUG = False
 
 x=os.environ['WEBSITE_HOSTNAME']
-ALLOWED_HOSTS = [str(x)]
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
